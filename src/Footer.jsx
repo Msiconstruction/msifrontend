@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+giimport { Link } from "react-router-dom";
 
 const footerLinks = [
   { label: "Services", path: "/Services" },
