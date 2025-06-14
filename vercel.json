@@ -1,11 +1,20 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/:path*",
+      "destination": "/"
+    }
   ],
   "redirects": [
     {
-      "source": "https://msiconstruction.co.uk",
-      "destination": "https://www.msiconstruction.co.uk",
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "msiconstruction.co.uk"
+        }
+      ],
+      "destination": "https://www.msiconstruction.co.uk/:path*",
       "permanent": true
     }
   ]
