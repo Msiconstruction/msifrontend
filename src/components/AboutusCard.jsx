@@ -1,16 +1,20 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export default function AboutUsexport() {
+export default function AboutUs() {
+
   return (
     <section className="bg-[#003049] text-white py-20">
       <div className="max-w-7xl mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold text-[#FDF0D5] mb-6">About Us</h2>
         <p className="text-[#C6C0B9] max-w-2xl mx-auto mb-12">
-        At MSI Construction UK LTD, we're proud to be one of the UK's reliable and forward-thinking construction firms. With a strong track record of delivering high-quality residential, commercial, and civil engineering projects, we have built our reputation on trust, craftsmanship, and an unwavering commitment to excellence.
-Founded in 2015, we bring decades of industry experience to every project—no matter the size or complexity. From initial planning and design through to completion, we work collaboratively with clients, architects, and contractors to ensure each project is delivered on time, within budget, and to the highest standards.
-Our team includes skilled professionals, qualified tradespeople, and project managers who are passionate about what they do. Health and safety, sustainability, and innovation are at the core of our operations, helping us build not just structures, but long-term relationships and communities.
-Whether it's a new build, a refurbishment, or infrastructure development, MSI Construction UK LTD is committed to building a better future—brick by brick.Your Project, Our Passion,MSI Construction UK LTD.
+       At MSI Construction UK LTD, we're proud to be one of the UK's reliable and forward-thinking construction firms. With a strong track record of delivering high-quality residential, commercial, and civil engineering projects, we have built our reputation on trust, craftsmanship, and an unwavering commitment to excellence.
+  <br /><br />
+  Founded in 2015, we bring decades of industry experience to every project—no matter the size or complexity. From initial planning and design through to completion, we work collaboratively with clients, architects, and contractors to ensure each project is delivered on time, within budget, and to the highest standards.
+  <br /><br />
+  Our team includes skilled professionals, qualified tradespeople, and project managers who are passionate about what they do. Health and safety, sustainability, and innovation are at the core of our operations, helping us build not just structures, but long-term relationships and communities.
+  <br /><br />
+  Whether it's a new build, a refurbishment, or infrastructure development, MSI Construction UK LTD is committed to building a better future—brick by brick. <strong>Your Project, Our Passion.</strong>
         </p>
 
         {/* Company Info Section */}
