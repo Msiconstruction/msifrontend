@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function AboutUsexport() {
   return (
     <section className="bg-[#003049] text-white py-20">
-      <div className="max-w-7xl mx-auto px-4 text-center">
+      <div className="max-w-7xl mx-auto px-4 text-center" >
         <h2 className="text-4xl font-bold text-[#FDF0D5] mb-6">About Us</h2>
         <p className="text-[#C6C0B9] max-w-2xl mx-auto mb-12">
           At MSI Construction UK LTD, we're proud to be one of the UK's reliable and forward-thinking construction firms. With a strong track record of delivering high-quality residential, commercial, and civil engineering projects, we have built our reputation on trust, craftsmanship, and an unwavering commitment to excellence.
